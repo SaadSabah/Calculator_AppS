@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:fontFamily="@font/poppins_regular"
-            android:text="0"
+            android:text="@string/_0"
             android:textColor="@color/white"
             android:textSize="30sp" />
 
@@ -37,6 +37,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1.5">
+
             <EditText
                 android:id="@+id/edtValue1"
                 android:layout_width="match_parent"
@@ -63,7 +64,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnClear"
             style="@style/btnRed"
-            android:text="C"
+            android:text="@string/c"
             android:fontFamily="@font/poppins_regular"
             android:layout_weight="0.5"
             android:layout_marginStart="10dp"
@@ -91,14 +92,14 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnCalculateRoot"
             style="@style/btnCalculate"
-            android:text="Calculate Root"
+            android:text="@string/calculate_root"
             android:paddingHorizontal="20dp"
             android:layout_gravity="center"
             android:visibility="gone"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnCalculateArea"
             style="@style/btnCalculate"
-            android:text="Calculate Area"
+            android:text="@string/calculate_area"
             android:paddingHorizontal="20dp"
             android:layout_gravity="center"
             android:visibility="gone"

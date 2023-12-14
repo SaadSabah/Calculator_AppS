@@ -12,4 +12,8 @@
     <string name="subtraction">Subtraction</string>
     <string name="addition">Addition</string>
     <string name="tvMessage">Please enter the required values and perform the following operations</string>
+    <string name="_0">0</string>
+    <string name="c">C</string>
+    <string name="calculate_root">Calculate Root</string>
+    <string name="calculate_area">Calculate Area</string>
 </resources>

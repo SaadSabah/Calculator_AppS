@@ -1,4 +1,4 @@
-package com.example.calculatorapp;
+package com.example.calculatorapp; // Test
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -271,10 +271,13 @@ public class MainActivity extends AppCompatActivity {
         try {
 
             ///converting into double
-            double a=Double.parseDouble(value1);///converting into double
-            double b=Double.parseDouble(value2);
+            double a =Double.parseDouble(value1);///converting into double
+            double b =Double.parseDouble(value2);
 
-            double c=Math.sqrt(aa + bb); ////formula to calculate pathagorus Value
+            double aa = 0;
+            double bb = 0;
+            double c=Math.sqrt((a * a) + (b * b)) ;
+            ////formula to calculate pythagoras Value
 
             tvResult.setText(String.valueOf(c));/////set Result to tvResult
 
